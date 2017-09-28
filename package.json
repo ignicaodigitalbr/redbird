@@ -36,7 +36,7 @@
     "object-hash": "^1.1.2",
     "safetimeout": "^0.1.1",
     "spdy": "^3.4.0",
-    "valid-url": "^1.0.9"
+    "valid-url-accent": "^1.0.5"
   },
   "devDependencies": {
     "chai": "^1.9.1",
