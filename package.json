@@ -27,6 +27,7 @@
     "bunyan": "^1.8.1",
     "dolphin": "*",
     "http-proxy": "^1.14.0",
+    "is-valid-path": "^0.1.1",
     "le-challenge-fs": "^2.0.4",
     "le-store-certbot": "^2.0.3",
     "letsencrypt": "^2.1.6",
