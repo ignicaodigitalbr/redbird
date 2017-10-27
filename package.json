@@ -24,7 +24,6 @@
   "homepage": "https://github.com/OptimalBits/redbird",
   "dependencies": {
     "bluebird": "^3.4.0",
-    "bunyan": "^1.8.1",
     "dolphin": "*",
     "finalhandler": "^1.1.0",
     "http-proxy": "^1.14.0",
@@ -39,7 +38,8 @@
     "object-hash": "^1.1.2",
     "safetimeout": "^0.1.1",
     "spdy": "^3.4.0",
-    "valid-url-accent": "^1.0.5"
+    "valid-url-accent": "^1.0.5",
+    "winston": "^2.4.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
