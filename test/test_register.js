@@ -4,12 +4,12 @@ var Redbird = require('../');
 var expect = require('chai').expect;
 
 var opts = {
-	bunyan: false /* {
-		name: 'test',
-		streams: [{
-        	path: '/dev/null',
-    	}]
-	} */
+	logs: {
+		console: true,
+		path: 'logs',
+		access: 'proxy-access.log',
+		error: 'error-acess.log',
+	},
 }
 
 describe("Route registration", function () {

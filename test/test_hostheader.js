@@ -10,7 +10,12 @@ var PROXY_PORT = 53433
 
 var opts = {
 	port: PROXY_PORT,
-	bunyan: false
+	logs: {
+		console: true,
+		path: 'logs',
+		access: 'proxy-access.log',
+		error: 'error-acess.log',
+	},
 }
 
 describe("Target with a hostname", function(){

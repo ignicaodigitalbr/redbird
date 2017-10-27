@@ -39,7 +39,7 @@
     "safetimeout": "^0.1.1",
     "spdy": "^3.4.0",
     "valid-url-accent": "^1.0.5",
-    "winston": "^2.4.0"
+    "winston": "^3.0.0-rc1"
   },
   "devDependencies": {
     "chai": "^1.9.1",

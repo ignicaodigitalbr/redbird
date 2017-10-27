@@ -5,7 +5,12 @@ var expect = require('chai').expect;
 var _ = require('lodash');
 
 var opts = {
-	bunyan: false,
+	logs: {
+    console: true,
+    path: 'logs',
+    access: 'proxy-access.log',
+    error: 'error-acess.log',
+  },
   port: 10000 + Math.ceil(Math.random() * 55535)
   /* {
 		name: 'test',

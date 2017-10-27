@@ -10,12 +10,12 @@ var PROXY_PORT = 53432
 
 var opts = {
   port: PROXY_PORT,
-	bunyan: false /* {
-		name: 'test',
-		streams: [{
-        	path: '/dev/null',
-    	}]
-	} */
+	logs: {
+    console: true,
+    path: 'logs',
+    access: 'proxy-access.log',
+    error: 'error-acess.log',
+  },
 }
 
 describe("Target with pathnames", function(){
