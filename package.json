@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/OptimalBits/redbird.git"
+    "url": "git://github.com/ignicaodigitalbr/redbird.git"
   },
   "keywords": [
     "proxy",
@@ -19,9 +19,9 @@
   "author": "Manuel Astudillo",
   "license": "BSD-3-Clause-Attribution",
   "bugs": {
-    "url": "https://github.com/OptimalBits/redbird/issues"
+    "url": "https://github.com/ignicaodigitalbr/redbird/issues"
   },
-  "homepage": "https://github.com/OptimalBits/redbird",
+  "homepage": "https://github.com/ignicaodigitalbr/redbird",
   "dependencies": {
     "bluebird": "^3.4.0",
     "dolphin": "*",
